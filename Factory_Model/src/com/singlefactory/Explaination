@@ -1,0 +1,16 @@
+extends與implements的區別
+在java中:
+extends表示繼承一個類
+implement表示爲一個類附加一些接口
+
+要理解二者的區別，就需要先理解java中的interface，即接口。interface通過如下的形式定義方式：
+public interface interface_name {
+    public void function1();
+    public int function2();
+}
+interface類型與class的區別在於，interface中不對任何方法（或者函數）進行明確的定義，只是給出函數的權限、形參、返回值類型和名稱。
+至於函數如何實現，需要在使用接口的類裏邊具體定義。
+
+extends表示的是全盤繼承了父類的功能，而implements可以理解爲這個類附加一個額外的功能。
+
+在c++中實現implements使用的是抽象類。
